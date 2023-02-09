@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/weather-forecast-concept-sunny-rainy-blue-background-top-view-copy-space-weather-forecast-concept-sunny-rainy-blue-160677612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainDiv{
+    width: 100%;
+}
+
+.header{
+width: 100%;
+padding-top: 40px;
+text-align: center;
+color: white;
+letter-spacing: 10px;
+}
+
+.formDiv{
+    margin-top: 70px;
+}
+
+.input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn{
+    height: 37px;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    background-color:yellow;
+    padding: 5px;
+}
+
+.cityDiv{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 100px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.tempDiv{
+   width: 150px;
+   height: 160px;
+   background-color: lightblue;
+   text-align: center;
+   line-height: 30px;
+   border: none;
+   border-radius: 25px;
+   padding-top: 20px;
+}
